@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Calcolatrice</title>
+
+
+    <script language="Javascript" src="Javascript.js"> </script>
+
+
+
+  </head>
+  <body>
+    <table style="width: 454px; height: 247px; text-align: left; margin-left: auto; margin-right: auto;"
+      border="1">
+      <tbody>
+        <tr>
+          <td>
+
+            <table style="width: 100%" border="1">
+              <tbody>
+                <tr>
+                  <tb colspan="3"><br>
+                  </tb>
+                      <tb colspan="3" align='center'>
+                          <img src="JavaScript-logo.png" alt="Javascipt"
+                            title="Javascript" style="width: 340px;" align='center'>
+                        <br>
+
+                    <p align=center> Calcolatrice con Javascript!</p> </tb><br>
+                  <tb colspan="3"></tb>
+                  <tb colspan="3">
+                    <br>
+                  </tb>
+                </tr>
+              </tbody>
+              <br>
+            </table>
+            <table border="1" align="center">
+              <tbody>
+                <tr>
+                  <td rowspan="1" colspan="2"> Risultato </td>
+                  <td rowspan="1" colspan="2" style="text-align: center;" id='Risultato' value='0'></td>
+                </tr>
+                <tr>
+                  <td><button name=" % " type="button" value='%' id='%' onclick="document.getElementById('Risultato').innerHTML +='%' "> % <br>
+                  </td>
+                  <td><button name=" CE " type="button" value=" CE " id="CE" onclick="document.getElementById('Risultato').innerHTML ='' "> CE <br>
+                  </td>
+                  <td><button name=" C " type="button" value=" C " id="C" onclick="document.getElementById('Risultato').innerHTML +='C'"> C <br>
+                  </td>
+                  <td><button name=" / " type="button" value=" / " id="/"  onclick="document.getElementById('Risultato').innerHTML +='/'"> / <br>
+                  </td>
+                </tr>
+                <tr>
+                  <td><button name=" 7 " type="button" value=" 7 " id="7" onclick="document.getElementById('Risultato').innerHTML +='7' "> 7 <br>
+                  </td>
+                  <td><button name=" 8 " type="button" value=" 8 " id="8" onclick="document.getElementById('Risultato').innerHTML +='8' "> 8 <br>
+                  </td>
+                  <td><button name=" 9 " type="button" value=" 9 " id="9" onclick="document.getElementById('Risultato').innerHTML +='9' "> 9 <br>
+                  </td>
+                  <td><button name=" * " type="button" value=" * " id="*" onclick="document.getElementById('Risultato').innerHTML +='*' "> * <br>
+                </tr>
+                <tr>
+                  <td>
+                    <button name=" 4 " type="button" value=" 4 " id="4" onclick="document.getElementById('Risultato').innerHTML +='4' "> 4 <br>
+                  </td>
+                  <td>
+                    <button name=" 7 " type="button" value=" 7 " id="7" onclick="document.getElementById('Risultato').innerHTML +='7' "> 7 <br>
+                  </td>
+                  <td>
+                    <button name=" 6 " type="button" value=" 6 " id="6" onclick="document.getElementById('Risultato').innerHTML +=6 "> 6 <br>
+                  </td>
+                  <td>
+                    <button name=" - " type="button" value=" - " id="-" onclick="document.getElementById('Risultato').innerHTML +='-' "> - <br>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button type="button" value=" 1 "id="1" onclick="document.getElementById('Risultato').innerHTML +='1' " >1<br>
+
+                  </td>
+                  <td>
+                    <button name=" 2 " type="button" value=" 2 " id="2" onclick="document.getElementById('Risultato').innerHTML +='2' "> 2 <br>
+                  </td>
+                  <td>
+                     <button name=" 3 " type="button" value=" 3 " id="3" onclick="document.getElementById('Risultato').innerHTML +='3' "> 3 <br>
+                  </td>
+                  <td>
+                     <button name=" + " type="button" value=" + " id="+" onclick="document.getElementById('Risultato').innerHTML +='+' "> + <br>
+                  </td>
+                </tr>
+                <tr>
+
+                  <td>
+                    <button name=" +- " type="button" value=" + - " id="+-" onclick="document.getElementById('Risultato').innerHTML +='+-' "> +- <br>
+                  </td>
+
+                  <td>
+                    <button name=" 0 " type="button" value="0" id="0" onclick="document.getElementById('Risultato').innerHTML +='0' "> 0 <br>
+                  </td>
+
+                  <td>
+                    <button name=" , " type="button" value="," id="," onclick="document.getElementById('Risultato').innerHTML  =',' "> , <br>
+                  </td>
+
+                  <td>
+                     <button name=" = " type="button" value="=" name="uguale" id="=" onclick="document.getElementById('Risultato').innerHTML =eval (document.getElementById('Risultato').innerHTML) "> = <br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>
